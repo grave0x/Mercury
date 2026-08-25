@@ -42,6 +42,20 @@ origin, and mirrors tags. Run `sync-mercury --check` for a status-only look.
   throttling (`-j 2/4`, nice/ionice, background nohup) per /home/grave/AGENTS.md.
 - Recommended: do builds on a spare box / VM / after cleanup, not on this desktop.
 
+## Security
+
+- **CVE-2024-9680 (CVSS 9.8, exploited in the wild)** affects the 129.0.2 base
+  (use-after-free in Animation timelines; fixed in Firefox 131.0.2 / ESR 128.3.1).
+  The ESR rebase (T-0047) is therefore P0, not routine. Do not ship any 129.x build.
+
+## Reports (committed)
+
+- `reports/triage-2026-08-23.md` — 92 open issues / 0 PRs; 15 actionable, 42
+  likely-duplicate (11 groups), 35 stale. Top actionable list included.
+- `reports/porting-list.md` + `reports/porting-diff-summary.json` — per-file diff
+  of the overlay vs ESR 153.1.0, with the newtab -> `browser/components/topsites`
+  refactor callouts and a 6-step porting order.
+
 ## Backlog (candidate maintenance work)
 
 - [ ] Rebase patch set onto current Firefox ESR (129 → 140.x) — main effort.
