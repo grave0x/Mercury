@@ -1,0 +1,123 @@
+[
+  {
+    "overlay": "browser/components/customizableui/CustomizableUI.sys.mjs",
+    "upstream": "browser/components/customizableui/CustomizableUI.sys.mjs",
+    "local_bytes": 215439,
+    "upstream_bytes": 287904,
+    "status": 200,
+    "diff_lines": 5062,
+    "added": 2753,
+    "removed": 609
+  },
+  {
+    "overlay": "browser/components/newtab/lib/DefaultSites.sys.mjs",
+    "upstream": "browser/components/newtab/lib/DefaultSites.sys.mjs",
+    "local": 2058,
+    "status": 404,
+    "note": "UPSTREAM GONE/MOVED"
+  },
+  {
+    "overlay": "browser/components/newtab/data/content/tippytop/top_sites.json",
+    "upstream": "browser/components/newtab/data/content/tippytop/top_sites.json",
+    "local": 5242,
+    "status": 404,
+    "note": "UPSTREAM GONE/MOVED"
+  },
+  {
+    "overlay": "netwerk/protocol/http/nsHttpHandler.cpp",
+    "upstream": "netwerk/protocol/http/nsHttpHandler.cpp",
+    "local_bytes": 96359,
+    "upstream_bytes": 107280,
+    "status": 200,
+    "diff_lines": 1712,
+    "added": 596,
+    "removed": 329
+  },
+  {
+    "overlay": "app/profile/firefox.js",
+    "upstream": "browser/app/profile/firefox.js",
+    "local_bytes": 159079,
+    "upstream_bytes": 180128,
+    "status": 200,
+    "diff_lines": 2945,
+    "added": 1084,
+    "removed": 709
+  },
+  {
+    "overlay": "build/moz.configure/lto-pgo.configure",
+    "upstream": "build/moz.configure/lto-pgo.configure",
+    "local_bytes": 14640,
+    "upstream_bytes": 15402,
+    "status": 200,
+    "diff_lines": 203,
+    "added": 64,
+    "removed": 34
+  },
+  {
+    "overlay": "build/moz.configure/toolchain.configure",
+    "upstream": "build/moz.configure/toolchain.configure",
+    "local_bytes": 124958,
+    "upstream_bytes": 124275,
+    "status": 200,
+    "diff_lines": 1768,
+    "added": 532,
+    "removed": 574
+  },
+  {
+    "overlay": "toolkit/moz.configure",
+    "upstream": "toolkit/moz.configure",
+    "local_bytes": 118176,
+    "upstream_bytes": 137208,
+    "status": 200,
+    "diff_lines": 1967,
+    "added": 975,
+    "removed": 364
+  },
+  {
+    "overlay": "browser/moz.configure",
+    "upstream": "browser/moz.configure",
+    "local_bytes": 1987,
+    "upstream_bytes": 1891,
+    "status": 200,
+    "diff_lines": 40,
+    "added": 6,
+    "removed": 7
+  },
+  {
+    "overlay": "policies/policies.json",
+    "upstream": "policies/policies.json",
+    "local": 384,
+    "status": 404,
+    "note": "UPSTREAM GONE/MOVED"
+  },
+  {
+    "overlay": "browser/confvars.sh",
+    "upstream": "browser/confvars.sh",
+    "local_bytes": 676,
+    "upstream_bytes": 679,
+    "status": 200,
+    "diff_lines": 9,
+    "added": 1,
+    "removed": 1
+  },
+  {
+    "overlay": "browser/base/content/default-bookmarks.html",
+    "upstream": "browser/base/content/default-bookmarks.html",
+    "local_bytes": 8694,
+    "upstream_bytes": 10280,
+    "status": 200,
+    "diff_lines": 59,
+    "added": 22,
+    "removed": 12
+  },
+  {
+    "overlay": "app/nsBrowserApp.cpp",
+    "upstream": "browser/app/nsBrowserApp.cpp",
+    "local_bytes": 14757,
+    "upstream_bytes": 17312,
+    "status": 200,
+    "diff_lines": 399,
+    "added": 163,
+    "removed": 78
+  }
+]
